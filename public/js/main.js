@@ -12,7 +12,7 @@ function closeModal(id) {
 
 function toWhatsApp(name, phone, extra) {
   const text = [
-    "Здравствуйте. Заявка с сайта altaymebel.pro.",
+    "Здравствуйте. Заявка с сайта altaimebel.pro.",
     name && `Имя: ${name}`,
     phone && `Телефон: ${phone}`,
     extra && extra,

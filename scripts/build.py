@@ -232,7 +232,7 @@ def page(title, description, body, active="", og="images/proj-7.jpg"):
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{description}">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://altaymebel.pro">
+  <meta property="og:url" content="https://altaimebel.pro">
   <meta property="og:image" content="{og}">
   <link rel="icon" href="/favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -243,7 +243,7 @@ def page(title, description, body, active="", og="images/proj-7.jpg"):
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Алтай Мебель Про",
-    "url": "https://altaymebel.pro",
+    "url": "https://altaimebel.pro",
     "telephone": "+79646034143",
     "email": "Papin.am@mail.ru",
     "address": {{
@@ -528,9 +528,9 @@ def main():
     for name, html in pages.items():
         write_page(name, html)
 
-    (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://altaymebel.pro/sitemap.xml\n", encoding="utf-8")
+    (ROOT / "robots.txt").write_text("User-agent: *\nAllow: /\nSitemap: https://altaimebel.pro/sitemap.xml\n", encoding="utf-8")
     urls = [""] + [name.replace("index.html", "") for name in pages if name != "index.html"]
-    sitemap = "\n".join(f"  <url><loc>https://altaymebel.pro/{u}</loc></url>" for u in urls)
+    sitemap = "\n".join(f"  <url><loc>https://altaimebel.pro/{u}</loc></url>" for u in urls)
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + sitemap

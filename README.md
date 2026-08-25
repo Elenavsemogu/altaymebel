@@ -1,6 +1,6 @@
 # Алтай Мебель Про
 
-Восстановленный сайт [altaymebel.pro](https://altaymebel.pro): кухни и мебель на заказ в Барнауле.
+Восстановленный сайт [altaimebel.pro](https://altaimebel.pro): кухни и мебель на заказ в Барнауле.
 
 Оригинал стоял на Tilda и сейчас отдаёт **402 Please renew your subscription**. Тексты, телефоны, адрес и фото собраны из архива Wayback Machine и с Tilda CDN.
 
@@ -16,7 +16,7 @@ python3 -m http.server 4173 --directory public
 
 ## DNS в Рег.ру для GitHub Pages
 
-Домены → `altaymebel.pro` → **Управление зоной**. Удалите старые A/AAAA/CNAME у `@` и `www`.
+Домены → `altaimebel.pro` → **Управление зоной**. Удалите старые A/AAAA/CNAME у `@` и `www`.
 
 | Тип | Subdomain | Значение |
 |---|---|---|
