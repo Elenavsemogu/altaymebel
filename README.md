@@ -28,8 +28,8 @@ python3 -m http.server 4173 --directory public
 | AAAA | `@` | `2606:50c0:8001::153` |
 | AAAA | `@` | `2606:50c0:8002::153` |
 | AAAA | `@` | `2606:50c0:8003::153` |
-| CNAME | `www` | `USERNAME.github.io` |
+| CNAME | `www` | `Elenavsemogu.github.io` |
 
-DNS-серверы домена: `ns1.reg.ru` и `ns2.reg.ru`, не Tilda. TTL 3600. После публикации репозитория вместо `USERNAME` подставьте логин GitHub.
+DNS-серверы домена: `ns1.reg.ru` и `ns2.reg.ru`, не Tilda. TTL 3600.
 
 Заявки уходят в WhatsApp `+7 964 603-41-43`. Почта: `Papin.am@mail.ru`.
