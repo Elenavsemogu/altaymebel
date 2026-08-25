@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://altaymebel.pro/sitemap.xml
