@@ -5,11 +5,8 @@ ROOT = Path(__file__).resolve().parents[1] / "public"
 
 NAV = [
     ("catalog/", "Каталог"),
-    ("#etaps", "Этапы работы"),
-    ("#advantages", "Преимущества"),
-    ("delivery/", "Доставка"),
-    ("oplata/", "Оплата"),
-    ("projects-design/", "Наши работы"),
+    ("projects-design/", "Работы"),
+    ("#etaps", "Как заказать"),
     ("#contacts", "Контакты"),
 ]
 
@@ -17,73 +14,73 @@ PROJECTS = [
     {
         "src": "images/works/kitchen-white-gold.jpg",
         "title": "Кухня белая с золотом",
-        "caption": "Рифлёные фасады МДФ, золотая фурнитура и встроенная подсветка",
+        "caption": "Рифлёные фасады МДФ и золотая фурнитура",
         "tag": "Кухни",
     },
     {
         "src": "images/works/kitchen-grey-oak.jpg",
         "title": "Кухня графит + дуб",
-        "caption": "Матовые фасады, столешница и фартук под дерево, техника в пенале",
+        "caption": "Матовые фасады, столешница под дерево",
         "tag": "Кухни",
     },
     {
         "src": "images/works/kitchen-gloss-white.jpg",
         "title": "Белая глянцевая кухня",
-        "caption": "Глянцевые фасады без ручек, узкий проход под ключ",
+        "caption": "Глянец без ручек",
         "tag": "Кухни",
     },
     {
         "src": "images/works/kitchen-display-glass.jpg",
         "title": "Витрина с подсветкой",
-        "caption": "Встройка техники и стеклянная витрина в золотом профиле",
+        "caption": "Витрина и встройка техники",
         "tag": "Кухни",
     },
     {
         "src": "images/works/hallway-grey-wood.jpg",
         "title": "Прихожая с рейками",
-        "caption": "Шкаф в потолок, сиденье и рейки под дуб",
+        "caption": "В потолок, сиденье и рейки",
         "tag": "Прихожие",
     },
     {
         "src": "images/works/hallway-greige.jpg",
         "title": "Прихожая под потолок",
-        "caption": "Антресоли, ниша для верхней одежды и ящики под обувь",
+        "caption": "Ниша, антресоли, ящики",
         "tag": "Прихожие",
     },
     {
         "src": "images/works/wardrobe-walkin.jpg",
         "title": "Гардеробная белая",
-        "caption": "Система хранения с трековым светом и зоной для обуви",
+        "caption": "Трековый свет и зона для обуви",
         "tag": "Шкафы",
     },
     {
         "src": "images/works/wardrobe-laundry.jpg",
         "title": "Шкаф с постирочной",
-        "caption": "Встройка стиральной машины, полки и штанга в одном корпусе",
+        "caption": "Стиральная машина внутри шкафа",
         "tag": "Шкафы",
     },
     {
         "src": "images/works/living-tv-slats.jpg",
         "title": "ТВ-зона с рейками",
-        "caption": "Подвесная тумба, розетки в рейках и открытые полки",
+        "caption": "Рейки, тумба и полки",
         "tag": "Гостиная",
     },
     {
         "src": "images/works/living-sideboard.jpg",
         "title": "Комод на золотых ножках",
-        "caption": "Корпусная тумба под ТВ с длинными ручками",
+        "caption": "Тумба под ТВ",
         "tag": "Тумбы",
     },
     {
         "src": "images/works/wardrobe-white-mirror.jpg",
         "title": "Встроенный шкаф с зеркалом",
-        "caption": "Распашные фасады в потолок и боковое зеркало во весь рост",
+        "caption": "В потолок, с зеркалом",
         "tag": "Шкафы",
     },
     {
         "src": "images/works/vanity-white-gold.jpg",
         "title": "Туалетный столик",
-        "caption": "Компактный столик с золотыми акцентами у окна",
+        "caption": "Белый с золотом",
         "tag": "Корпусная",
     },
 ]
@@ -92,7 +89,7 @@ CATEGORIES = [
     {
         "slug": "kitchens/",
         "title": "Кухни",
-        "short": "Под ключ по вашим размерам из ЛДСП и МДФ",
+        "short": "Под размер из ЛДСП и МДФ",
         "image": "images/works/kitchen-white-gold.jpg",
         "wide": True,
         "text": "Кухни под заказ от производителя в Барнауле. Считаем ваш проект, помогаем с дизайном, изготавливаем за 7–60 дней и при необходимости устанавливаем. Фасады ЛДСП и МДФ, столешницы Скиф или искусственный камень.",
@@ -108,7 +105,7 @@ CATEGORIES = [
     {
         "slug": "losets/",
         "title": "Шкафы и зоны хранения",
-        "short": "Встроенные шкафы, купе, гардеробные, ниши",
+        "short": "Купе, гардеробные, ниши",
         "image": "images/works/hallway-grey-wood.jpg",
         "wide": False,
         "text": "Шкафы и гардеробные в проём: распашные, купе и системы хранения с нишами. Фасады, наполнение и подсветку подбираем под интерьер.",
@@ -125,7 +122,7 @@ CATEGORIES = [
     {
         "slug": "bollards/",
         "title": "Тумбы",
-        "short": "Комоды, тумбы ТВ и прикроватные тумбы",
+        "short": "ТВ-зоны, комоды",
         "image": "images/works/living-sideboard.jpg",
         "wide": False,
         "text": "Тумбы и комоды под размер помещения: под телевизор, в прихожую, в спальню. Подберём цвет, ручки и внутреннее наполнение.",
@@ -166,7 +163,7 @@ CATEGORIES = [
     {
         "slug": "projects-design/",
         "title": "Реализованные дизайн-проекты",
-        "short": "Готовые интерьеры и комплекты мебели",
+        "short": "Фото готовых объектов",
         "image": "images/works/kitchen-white-gold.jpg",
         "wide": True,
         "text": "Реальные объекты в Барнауле: кухни, прихожие, шкафы и корпусная мебель. Пришлите свой проект — просчитаем и предложим варианты.",
@@ -176,44 +173,30 @@ CATEGORIES = [
 ]
 
 DECORS = [
-    ("Дуб вотан", "Тёплый тренд ЛДСП"),
-    ("Дуб сонома", "Классика корпусной"),
-    ("Крафт золотой", "С деревом и белым"),
-    ("Ясень шимо", "Светлый и спокойный"),
+    ("Дуб вотан", "Тёплый ЛДСП"),
+    ("Дуб сонома", "Классика"),
+    ("Крафт золотой", "С белым"),
     ("Кашемир", "Бежево-серый"),
-    ("Графит", "Современный матовый"),
-    ("Бетон", "Лофт и кухни"),
-    ("МДФ матовый", "Фасады под эмаль/плёнку"),
+    ("Графит", "Матовый"),
+    ("МДФ", "Эмаль и плёнка"),
 ]
 
 STEPS = [
     (
-        "Выбор дизайна",
-        "Посмотрите наши модели, выберите понравившуюся и закажите. Или принесите свой чертёж и идеи — мы их реализуем. Если нет времени разбираться в материалах, поможем с дизайном и предложим лучшие варианты.",
+        "Замер и проект",
+        "Бесплатный замер в Барнауле или расчёт по вашим размерам. Подберём материалы и фасады.",
     ),
     (
-        "Замер помещения",
-        "Бесплатный замер по Барнаулу: приедем с образцами материалов. Или пришлите размеры сами — посчитаем ориентировочно удалённо.",
+        "Договор",
+        "Фиксируем смету и сроки в договоре. Оплата наличными, безналом или в рассрочку.",
     ),
     (
-        "Договор и оплата",
-        "После согласования утверждается дизайн-проект, составляется и подписывается договор. Оплата наличными или безналичным переводом. Есть рассрочка и кредит.",
+        "Изготовление",
+        "Делаем на своём производстве — обычно от 2 недель, сложные проекты до 60 дней.",
     ),
     (
-        "Изготовление мебели",
-        "Срок изготовления — от 7 до 60 дней в зависимости от объёма и сложности. Можем собрать конструктор с инструкцией или готовые базы.",
-    ),
-    (
-        "Доставка и установка",
-        "Забрать мебель можно самостоятельно или воспользоваться доставкой. Установить можно самим — если есть вопросы, поможем. Можем установить сами.",
-    ),
-    (
-        "Гарантия",
-        "Гарантийный срок изделий — 3 года.",
-    ),
-    (
-        "Самостоятельная сборка",
-        "Если выбрали самостоятельную сборку, каждый блок едет в отдельной упаковке. К нему прилагается инструкция, а мы можем приехать помочь или проконсультировать.",
+        "Доставка и монтаж",
+        "Привезём и установим. Гарантия на изделия — 3 года.",
     ),
 ]
 
@@ -248,8 +231,8 @@ def lead_form(lead="Хочу рассчитать мебель", extra_field=Fal
             <input name="phone" type="tel" placeholder="Телефон" required>
             {extra}
           </div>
-          <button class="btn btn--teal" type="submit">{button}</button>
-          <p class="note">Ответим в WhatsApp, обычно в течение 2 часов в рабочее время. Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+          <button class="btn btn--pine" type="submit">{button}</button>
+          <p class="note">Ответ в WhatsApp. Согласие на обработку персональных данных.</p>
         </form>"""
 
 
@@ -272,19 +255,19 @@ HEADER = """    <header class="header">
 FOOTER = """    <footer class="footer">
       <div class="wrap footer__grid">
         <div>
-          <img src="/images/logo.png" alt="Алтай Мебель Про" width="220">
-          <p>Кухни и корпусная мебель на заказ от производителя в Барнауле. Свой цех на Матросова, 9И.</p>
+          <a class="logo" href="/"><img src="/images/logo.png" alt="Алтай Мебель Про"></a>
+          <p>Кухни и корпусная мебель на заказ. Барнаул, Матросова 9И.</p>
         </div>
         <div>
           <p><a href="tel:+79646034143">+7 964 603-41-43</a></p>
           <p><a href="mailto:Papin.am@mail.ru">Papin.am@mail.ru</a></p>
-          <p>г. Барнаул, ул. Матросова, 9И</p>
+          <p>Пн–Вс, 10:00–18:00</p>
         </div>
         <div>
           <p><a href="/catalog/">Каталог</a></p>
+          <p><a href="/projects-design/">Работы</a></p>
+          <p><a href="/oplata/">Оплата и рассрочка</a></p>
           <p><a href="/delivery/">Доставка</a></p>
-          <p><a href="/oplata/">Оплата</a></p>
-          <p><a href="/#project">Рассчитать проект</a></p>
         </div>
       </div>
       <div class="wrap"><small>© Алтай Мебель Про</small></div>
@@ -296,7 +279,7 @@ FOOTER = """    <footer class="footer">
       <div class="modal__box">
         <button class="modal__close" type="button" data-close="modal-call" aria-label="Закрыть">×</button>
         <h3>Рассчитать проект</h3>
-        <p>Оставьте контакты — пришлём ориентир по цене или запишем на бесплатный замер.</p>
+        <p>Ориентир по цене или запись на бесплатный замер.</p>
         """ + lead_form("Хочу рассчитать проект / замер", extra_field=True, button="Отправить в WhatsApp") + """
       </div>
     </div>"""
@@ -392,24 +375,24 @@ def homepage():
           </li>"""
         for name, hint in DECORS
     )
+    # Homepage shows main categories only — less clutter
+    home_cards = [c for c in cards if "/children/" not in c and "/bathroom/" not in c and "/commercial/" not in c]
     body = f"""
     <section class="hero">
       <div class="wrap hero__layout">
         <div class="hero__copy">
           <p class="hero__brand">Алтай Мебель Про</p>
-          <p class="hero__kicker">свой цех в Барнауле · ЛДСП и МДФ</p>
-          <h1>Кухни и корпусная мебель на заказ</h1>
-          <p>Под ваши размеры: кухни, шкафы-купе, гардеробные и встроенная мебель. Бесплатный замер, расчёт без скрытых доплат, договор и гарантия 3 года.</p>
+          <h1>Кухни и мебель на заказ в Барнауле</h1>
+          <p>Свой цех. Делаем под ваши размеры из ЛДСП и МДФ — с замером, договором и гарантией 3 года.</p>
           <div class="hero__actions">
             <a class="btn btn--gold" href="#project">Рассчитать проект</a>
             <a class="btn btn--ghost" href="#" data-open="modal-call">Бесплатный замер</a>
           </div>
         </div>
         <ul class="hero__trust">
-          <li><b>36 мес.</b><span>гарантия</span></li>
-          <li><b>7–60 дн.</b><span>изготовление</span></li>
-          <li><b>0 ₽</b><span>замер в городе</span></li>
-          <li><b>Тинькофф</b><span>рассрочка 3–12 мес.</span></li>
+          <li><b>Бесплатный замер</b><span>по Барнаулу</span></li>
+          <li><b>От 2 недель</b><span>изготовление</span></li>
+          <li><b>Рассрочка</b><span>Тинькофф 3–12 мес.</span></li>
         </ul>
       </div>
     </section>
@@ -417,37 +400,19 @@ def homepage():
     <section class="section" id="catalog">
       <div class="wrap">
         <div class="section__head">
-          <div>
-            <h2>Что делаем</h2>
-            <p class="lead">Сначала кухни и шкафы — самый частый запрос в Барнауле. Дальше остальные разделы.</p>
-          </div>
+          <h2>Что делаем</h2>
           <a href="/catalog/">Весь каталог</a>
         </div>
         <div class="grid">
-{chr(10).join(cards)}
+{chr(10).join(home_cards)}
         </div>
-      </div>
-    </section>
-
-    <section class="section section--soft" id="decors">
-      <div class="wrap">
-        <div class="section__head">
-          <div>
-            <h2>Популярные декоры и материалы</h2>
-            <p class="lead">Работаем с ЛДСП Egger, Kronospan, Ламарти; фасады МДФ; столешницы Скиф и искусственный камень. Подберём цвет под интерьер — от дуба вотан до кашемира и графита.</p>
-          </div>
-        </div>
-        <ul class="decors">
-{decors}
-        </ul>
-        <p class="decors__note">Есть образцы в цехе на Матросова, 9И. Привезём на замер.</p>
       </div>
     </section>
 
     <section class="section section--paper" id="works">
       <div class="wrap">
         <div class="section__head">
-          <h2>Реальные работы</h2>
+          <h2>Работы</h2>
           <a href="/projects-design/">Смотреть все</a>
         </div>
         <div class="slider">
@@ -462,41 +427,35 @@ def homepage():
       </div>
     </section>
 
-    <section class="section stats" id="advantages">
-      <div class="wrap stats-grid">
-        <div class="stat"><b>5</b><span>лет безупречной репутации</span></div>
-        <div class="facts">
-          <h3>Почему заказывают у нас</h3>
-          <div class="facts-row">
-            <div class="stat"><b>36</b><span>месяцев гарантия</span></div>
-            <div class="stat"><b>790</b><span>клиентов по рекомендации</span></div>
-            <div class="stat"><b>15</b><span>лет средний срок службы кухни</span></div>
-          </div>
+    <section class="section section--soft" id="decors">
+      <div class="wrap">
+        <div class="section__head">
+          <h2>Декоры и материалы</h2>
         </div>
-        <div>
-          <div class="stat"><b>2</b><span>недели средний срок изготовления</span></div>
-          <div class="stat" style="margin-top:24px"><b>814</b><span>довольных клиентов</span></div>
-        </div>
+        <ul class="decors">
+{decors}
+        </ul>
+        <p class="decors__note">Образцы в цехе на Матросова, 9И — привезём на замер.</p>
       </div>
     </section>
 
     <section class="section" id="project">
       <div class="wrap contacts">
         <div>
-          <h2>Рассчитаем ваш проект</h2>
-          <p class="lead">Пришлите размеры, фото помещения или эскиз — ответим с ориентиром по цене. Можно сразу записаться на бесплатный замер по Барнаулу.</p>
+          <h2>Рассчитать проект</h2>
+          <p class="lead">Пришлите размеры или фото — ответим с ориентиром по цене.</p>
           <div class="cta-stack">
-            <a class="btn btn--dark" href="https://wa.me/79646034143?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%80%D0%B0%D1%81%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.">Написать в WhatsApp</a>
+            <a class="btn btn--dark" href="https://wa.me/79646034143?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%80%D0%B0%D1%81%D1%81%D1%87%D0%B8%D1%82%D0%B0%D1%82%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.">WhatsApp</a>
             <a class="btn btn--ghost-dark" href="tel:+79646034143">Позвонить</a>
           </div>
         </div>
-        {lead_form("Прошу рассчитать проект мебели", extra_field=True, button="Рассчитать проект")}
+        {lead_form("Прошу рассчитать проект мебели", extra_field=True, button="Рассчитать")}
       </div>
     </section>
 
     <section class="section section--paper" id="etaps">
       <div class="wrap">
-        <div class="section__head"><h2>Как проходит заказ</h2></div>
+        <div class="section__head"><h2>Как заказать</h2></div>
         <div class="steps">
 {steps}
         </div>
@@ -506,9 +465,9 @@ def homepage():
     <section class="section credit" id="credit">
       <div class="wrap credit__box">
         <div>
-          <h2>Кухня сейчас — оплата потом</h2>
-          <p>Рассрочка или кредит от Тинькофф Банка на 3, 6, 10 или 12 месяцев. Сначала замер и смета — потом решение.</p>
-          <a class="btn btn--gold" href="/oplata/">Условия оплаты</a>
+          <h2>Рассрочка 3–12 месяцев</h2>
+          <p>Через Тинькофф. Сначала смета — потом решение.</p>
+          <a class="btn btn--gold" href="/oplata/">Условия</a>
         </div>
         <img src="/images/tinkoff.png" alt="Тинькофф Банк">
       </div>
@@ -520,12 +479,12 @@ def homepage():
           <h2>Контакты</h2>
           <p><a class="phone" href="tel:+79646034143">+7 964 603-41-43</a></p>
           <p><a href="mailto:Papin.am@mail.ru">Papin.am@mail.ru</a></p>
-          <p>г. Барнаул, ул. Матросова, 9И — производство и образцы</p>
+          <p>Барнаул, ул. Матросова, 9И</p>
           <iframe class="map" title="Карта" src="https://yandex.ru/map-widget/v1/?text=%D0%91%D0%B0%D1%80%D0%BD%D0%B0%D1%83%D0%BB%20%D0%9C%D0%B0%D1%82%D1%80%D0%BE%D1%81%D0%BE%D0%B2%D0%B0%209%D0%98"></iframe>
         </div>
         <div>
-          <h2>Остались вопросы?</h2>
-          {lead_form("Вопрос с сайта", button="Задать вопрос")}
+          <h2>Написать нам</h2>
+          {lead_form("Вопрос с сайта", button="Отправить")}
         </div>
       </div>
     </section>
@@ -556,7 +515,7 @@ def catalog_page():
       <div class="wrap">
         <p class="crumbs"><a href="/">Главная</a> / Каталог</p>
         <h1>Каталог</h1>
-        <p>Кухни, шкафы и корпусная мебель на заказ в Барнауле. Выберите раздел или сразу рассчитайте проект.</p>
+        <p>Кухни, шкафы и корпусная мебель на заказ в Барнауле.</p>
         <p><a class="btn btn--gold" href="#" data-open="modal-call">Рассчитать проект</a></p>
       </div>
     </section>
@@ -623,11 +582,11 @@ def projects_page():
     <section class="page-hero">
       <div class="wrap">
         <p class="crumbs"><a href="/">Главная</a> / Наши работы</p>
-        <h1>Реальные проекты</h1>
-        <p>Кухни, прихожие, шкафы и корпусная мебель, которые мы сделали в Барнауле. Каждый объект — под размеры клиента.</p>
+        <h1>Наши работы</h1>
+        <p>Кухни, прихожие и шкафы, сделанные под размер в Барнауле.</p>
         <div class="hero__actions">
-          <a class="btn btn--gold" href="#" data-open="modal-call">Хочу такой же проект</a>
-          <a class="btn btn--ghost" href="/kitchens/">Смотреть кухни</a>
+          <a class="btn btn--gold" href="#" data-open="modal-call">Рассчитать похожий</a>
+          <a class="btn btn--ghost" href="/kitchens/">Кухни</a>
         </div>
       </div>
     </section>
