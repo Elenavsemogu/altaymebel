@@ -13,40 +13,128 @@ NAV = [
     ("#contacts", "Контакты"),
 ]
 
+PROJECTS = [
+    {
+        "src": "images/works/kitchen-white-gold.jpg",
+        "title": "Кухня белая с золотом",
+        "caption": "Рифлёные фасады МДФ, золотая фурнитура и встроенная подсветка",
+        "tag": "Кухни",
+    },
+    {
+        "src": "images/works/kitchen-grey-oak.jpg",
+        "title": "Кухня графит + дуб",
+        "caption": "Матовые фасады, столешница и фартук под дерево, техника в пенале",
+        "tag": "Кухни",
+    },
+    {
+        "src": "images/works/kitchen-gloss-white.jpg",
+        "title": "Белая глянцевая кухня",
+        "caption": "Глянцевые фасады без ручек, узкий проход под ключ",
+        "tag": "Кухни",
+    },
+    {
+        "src": "images/works/kitchen-display-glass.jpg",
+        "title": "Витрина с подсветкой",
+        "caption": "Встройка техники и стеклянная витрина в золотом профиле",
+        "tag": "Кухни",
+    },
+    {
+        "src": "images/works/hallway-grey-wood.jpg",
+        "title": "Прихожая с рейками",
+        "caption": "Шкаф в потолок, сиденье и рейки под дуб",
+        "tag": "Прихожие",
+    },
+    {
+        "src": "images/works/hallway-greige.jpg",
+        "title": "Прихожая под потолок",
+        "caption": "Антресоли, ниша для верхней одежды и ящики под обувь",
+        "tag": "Прихожие",
+    },
+    {
+        "src": "images/works/wardrobe-walkin.jpg",
+        "title": "Гардеробная белая",
+        "caption": "Система хранения с трековым светом и зоной для обуви",
+        "tag": "Шкафы",
+    },
+    {
+        "src": "images/works/wardrobe-laundry.jpg",
+        "title": "Шкаф с постирочной",
+        "caption": "Встройка стиральной машины, полки и штанга в одном корпусе",
+        "tag": "Шкафы",
+    },
+    {
+        "src": "images/works/living-tv-slats.jpg",
+        "title": "ТВ-зона с рейками",
+        "caption": "Подвесная тумба, розетки в рейках и открытые полки",
+        "tag": "Гостиная",
+    },
+    {
+        "src": "images/works/living-sideboard.jpg",
+        "title": "Комод на золотых ножках",
+        "caption": "Корпусная тумба под ТВ с длинными ручками",
+        "tag": "Тумбы",
+    },
+    {
+        "src": "images/works/wardrobe-white-mirror.jpg",
+        "title": "Встроенный шкаф с зеркалом",
+        "caption": "Распашные фасады в потолок и боковое зеркало во весь рост",
+        "tag": "Шкафы",
+    },
+    {
+        "src": "images/works/vanity-white-gold.jpg",
+        "title": "Туалетный столик",
+        "caption": "Компактный столик с золотыми акцентами у окна",
+        "tag": "Корпусная",
+    },
+]
+
 CATEGORIES = [
     {
         "slug": "kitchens/",
         "title": "Кухни",
         "short": "Под ключ по вашим размерам из ЛДСП и МДФ",
-        "image": "images/cat-kitchens.jpg",
+        "image": "images/works/kitchen-white-gold.jpg",
         "wide": True,
         "text": "Кухни под заказ от производителя в Барнауле. Считаем ваш проект, помогаем с дизайном, изготавливаем за 7–60 дней и при необходимости устанавливаем. Фасады ЛДСП и МДФ, столешницы Скиф или искусственный камень.",
         "gallery": [
-            "images/cat-kitchens.jpg",
-            "images/proj-1.jpg",
-            "images/proj-4.jpg",
-            "images/proj-7.jpg",
-            "images/form-kitchen.png",
-            "images/hero-kitchen.png",
+            "images/works/kitchen-white-gold.jpg",
+            "images/works/kitchen-white-gold-2.jpg",
+            "images/works/kitchen-grey-oak.jpg",
+            "images/works/kitchen-gloss-white.jpg",
+            "images/works/kitchen-display-glass.jpg",
+            "images/works/kitchen-detail-gold.jpg",
         ],
     },
     {
         "slug": "losets/",
         "title": "Шкафы и зоны хранения",
         "short": "Встроенные шкафы, купе, гардеробные, ниши",
-        "image": "images/cat-closets.jpg",
+        "image": "images/works/hallway-grey-wood.jpg",
         "wide": False,
         "text": "Шкафы и гардеробные в проём: распашные, купе и системы хранения с нишами. Фасады, наполнение и подсветку подбираем под интерьер.",
-        "gallery": ["images/cat-closets.jpg", "images/proj-2.jpg"],
+        "gallery": [
+            "images/works/hallway-grey-wood.jpg",
+            "images/works/hallway-greige.jpg",
+            "images/works/hallway-niche.jpg",
+            "images/works/wardrobe-walkin.jpg",
+            "images/works/wardrobe-laundry.jpg",
+            "images/works/wardrobe-white-mirror.jpg",
+            "images/works/hallway-sonya-2.jpg",
+        ],
     },
     {
         "slug": "bollards/",
         "title": "Тумбы",
         "short": "Комоды, тумбы ТВ и прикроватные тумбы",
-        "image": "images/cat-tumby.jpg",
+        "image": "images/works/living-sideboard.jpg",
         "wide": False,
         "text": "Тумбы и комоды под размер помещения: под телевизор, в прихожую, в спальню. Подберём цвет, ручки и внутреннее наполнение.",
-        "gallery": ["images/cat-tumby.jpg", "images/proj-5.jpg"],
+        "gallery": [
+            "images/works/living-sideboard.jpg",
+            "images/works/living-tv-slats.jpg",
+            "images/works/living-tv-night.jpg",
+            "images/works/vanity-white-gold.jpg",
+        ],
     },
     {
         "slug": "children/",
@@ -73,25 +161,17 @@ CATEGORIES = [
         "image": "images/cat-commercial.jpg",
         "wide": False,
         "text": "Мебель для магазинов, аптек, офисов и общественных пространств: ресепшен, витрины, стеллажи, рабочие зоны. Делаем по вашему проекту или предложим свой.",
-        "gallery": ["images/cat-commercial.jpg", "images/cat-projects.jpg", "images/proj-3.jpg"],
+        "gallery": ["images/cat-commercial.jpg", "images/cat-projects.jpg"],
     },
     {
         "slug": "projects-design/",
         "title": "Реализованные дизайн-проекты",
         "short": "Готовые интерьеры и комплекты мебели",
-        "image": "images/cat-projects.jpg",
+        "image": "images/works/kitchen-white-gold.jpg",
         "wide": True,
-        "text": "Примеры реализованных объектов: кухни, детские, зоны хранения, торговая и офисная мебель. Пришлите свой проект — просчитаем и предложим варианты.",
-        "gallery": [
-            "images/cat-projects.jpg",
-            "images/proj-1.jpg",
-            "images/proj-2.jpg",
-            "images/proj-3.jpg",
-            "images/proj-4.jpg",
-            "images/proj-5.jpg",
-            "images/proj-6.jpg",
-            "images/proj-7.jpg",
-        ],
+        "text": "Реальные объекты в Барнауле: кухни, прихожие, шкафы и корпусная мебель. Пришлите свой проект — просчитаем и предложим варианты.",
+        "gallery": [],  # rendered by projects_page()
+        "portfolio": True,
     },
 ]
 
@@ -104,16 +184,6 @@ DECORS = [
     ("Графит", "Современный матовый"),
     ("Бетон", "Лофт и кухни"),
     ("МДФ матовый", "Фасады под эмаль/плёнку"),
-]
-
-PROJECTS = [
-    "images/proj-1.jpg",
-    "images/proj-2.jpg",
-    "images/proj-3.jpg",
-    "images/proj-4.jpg",
-    "images/proj-5.jpg",
-    "images/proj-6.jpg",
-    "images/proj-7.jpg",
 ]
 
 STEPS = [
@@ -232,7 +302,7 @@ FOOTER = """    <footer class="footer">
     </div>"""
 
 
-def page(title, description, body, active="", og="images/proj-7.jpg"):
+def page(title, description, body, active="", og="images/works/kitchen-white-gold.jpg"):
     return f"""<!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -295,8 +365,15 @@ def homepage():
         </a>"""
         )
     slides = "\n".join(
-        f'          <figure class="slide"><img src="{href(src)}" alt="Выполненный проект"></figure>'
-        for src in PROJECTS
+        f"""          <figure class="slide">
+            <img src="{href(p['src'])}" alt="{p['title']}">
+            <figcaption>
+              <span class="slide__tag">{p['tag']}</span>
+              <strong>{p['title']}</strong>
+              <em>{p['caption']}</em>
+            </figcaption>
+          </figure>"""
+        for p in PROJECTS
     )
     steps = "\n".join(
         f"""        <article class="step">
@@ -530,6 +607,45 @@ def category_page(cat):
     )
 
 
+def projects_page():
+    cards = "\n".join(
+        f"""        <article class="work-card">
+          <img src="{href(p['src'])}" alt="{p['title']}">
+          <div class="work-card__body">
+            <span class="slide__tag">{p['tag']}</span>
+            <h3>{p['title']}</h3>
+            <p>{p['caption']}</p>
+          </div>
+        </article>"""
+        for p in PROJECTS
+    )
+    body = f"""
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="crumbs"><a href="/">Главная</a> / Наши работы</p>
+        <h1>Реальные проекты</h1>
+        <p>Кухни, прихожие, шкафы и корпусная мебель, которые мы сделали в Барнауле. Каждый объект — под размеры клиента.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#" data-open="modal-call">Хочу такой же проект</a>
+          <a class="btn btn--ghost" href="/kitchens/">Смотреть кухни</a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap work-grid">
+{cards}
+      </div>
+    </section>
+"""
+    return page(
+        "Наши работы — кухни и мебель на заказ в Барнауле",
+        "Портфолио Алтай Мебель Про: кухни, прихожие, шкафы и корпусная мебель на заказ в Барнауле.",
+        body,
+        "projects-design",
+        href(PROJECTS[0]["src"]),
+    )
+
+
 def simple_page(slug, title, intro, content, active):
     body = f"""
     <section class="page-hero">
@@ -592,7 +708,10 @@ def main():
         ),
     }
     for cat in CATEGORIES:
-        pages[f"{cat['slug'].strip('/')}/index.html"] = category_page(cat)
+        if cat.get("portfolio"):
+            pages[f"{cat['slug'].strip('/')}/index.html"] = projects_page()
+        else:
+            pages[f"{cat['slug'].strip('/')}/index.html"] = category_page(cat)
 
     for name, html in pages.items():
         write_page(name, html)
